@@ -1,0 +1,286 @@
+      body{
+        margin: 0;
+        padding: 0;
+
+        font-size: 20px;
+      }
+      .top_menu_wrapper{
+        background-color: #000;
+      }
+
+      h1{
+        font-family: Comic Sans MS;
+
+      }
+
+      .top_menu{
+
+        background-color: #000;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 60%;
+        margin: 0 0 0 20%;
+
+      }
+      .top_menu nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+      }
+      .top_menu nav ul li{
+        float: left;
+        padding-left: 20px;
+      }
+      .top_menu nav ul li a{
+        text-decoration: none;
+        color: #fff;
+
+      }
+      .top_menu nav ul li a:hover{
+        text-decoration: underline;
+        color: #fff;
+      }
+      .content{
+        width: 60%;
+        margin: 0 0 0 20%;
+
+      }
+
+      .hedgehog_home{
+        background: url(../images/hedgehog_fon.png) repeat;
+        padding-bottom: 50px;
+      }
+
+      .hedgehog_home .content{
+        height: 800px;
+        background-image: url(../images/fon-1.png);
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+        background-position: 0 80px;
+      }
+      h2{
+        font-size: 26px;
+        font-family: Comic Sans MS;
+      }
+      .hedgehog_home .hedgehog_text{
+        border: 5px #987e67 solid;
+        width: 40%;
+        margin-left: 45%;
+        margin-top: 500px;
+        padding: 20px 20px 0px 20px;
+        border-radius: 20px;
+        background: #e9cdb4;
+       -webkit-box-shadow: 31px 24px 27px 5px rgba(94,60,31,0.71); 
+        box-shadow: 31px 24px 27px 5px rgba(94,60,31,0.71);
+
+      }
+      .hedgehog_home .hedgehog_text p{
+        padding: 0  0 20px;
+        margin: 0;
+      }
+.font_comic{
+  
+        font-family: Comic Sans MS;
+
+}
+       .fox_home{
+          background-color: #ffe79e;
+          padding-top: 40px;
+           background-image: url(../images/fox_fon.png);
+           background-position: 50% auto;
+           background-repeat: repeat;
+        padding-bottom: 70px;
+       } 
+
+
+       .fox_home .content{
+        height: 800px;
+        background-image: url(../images/fox_home.png);
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+        background-position: 0 80px;
+      }
+
+
+
+       .fox_home_kitchen .kitchen-bg{
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 0 0;
+        background-image: url(../images/kitchen-closed.png);
+        position: relative;
+
+       }
+      .fox_home_kitchen .kitchen-bg.box-top-open{
+        background-image: url(../images/kitchen-box-top-open.png);
+
+      }
+      .fox_home_kitchen .kitchen-bg.box-btm-open{
+        background-image: url(../images/kitchen-box-btm-open.png);
+
+      }
+      .fox_home_kitchen .kitchen-bg.box-fire-open{
+        background-image: url(../images/kitchen-box-fire-open.png);
+
+      }
+
+
+.fox_home_bath{
+  margin-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background: #f00
+}
+       .fox_home_bath .bath-bg{
+        height: 1240px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: 0 0;
+        background-image: url(../images/bath_closed.png);
+        position: relative;
+
+       }
+      .fox_home_bath .bath-bg.case-top-open{
+        background-image: url(../images/bath_open.png);
+
+      }
+
+      #case_box{
+        position: absolute;
+        left: 66px;
+        top: 36px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        background: #fdd;
+      }
+
+
+ 
+body{
+  position: relative;
+}
+
+ #my_little_fox{
+  width: 100px;
+  height: 100px;
+  background: #fdd;
+ }
+
+#top_box{
+  position: absolute;
+  left: 66px;
+  top: 36px;
+  width: 476px;
+  height: 290px;
+  cursor: pointer;
+}
+
+#btm_box{
+  position: absolute;
+  left: 99px;
+  top: 469px;
+  width: 524px;
+  height: 321px;
+   cursor: pointer;
+}
+
+#fire_box{
+  position: absolute;
+  left: 651px;
+  top: 482px;
+  width: 367px;
+  height: 307px;
+    cursor: pointer;
+}
+
+
+    .fox_home_bath .fox_text{
+        border: 5px #c9f8ff solid;
+        width: 40%;
+        margin-left: 20px;
+        padding: 20px 20px 0px 20px;
+        border-radius: 20px;
+        background: #ffb761;
+       -webkit-box-shadow: 31px 24px 27px 5px rgba(94,60,31); 
+        box-shadow: 20px 20px 27px 5px rgba(57,9,197, 0.3);
+        opacity: 0.8;
+        position: relative;
+        top: 500px;
+      }
+
+
+
+
+    .fox_home .fox_text{
+        border: 5px #c9f8ff solid;
+        width: 40%;
+        margin-left: 20px;
+        padding: 20px 20px 0px 20px;
+        border-radius: 20px;
+        background: #ffb761;
+       -webkit-box-shadow: 31px 24px 27px 5px rgba(94,60,31,0.71); 
+        box-shadow: 31px 24px 27px 5px rgba(94,60,31,0.71);
+        opacity: 0.8;
+        position: relative;
+        top: 500px;
+      }
+    .fox_home .content.kitchen-bg .fox_text{
+        top: 700px;
+    }
+
+
+
+      .fox_home .fox_text p{
+        padding: 0  0 20px;
+        margin: 0;
+      }
+
+
+ul.photos {
+  width: 750px;
+  padding: 50px 0px;
+  margin: 0px auto;
+  text-align: center;
+  list-style: none;
+}
+ul.photos li {
+  display: inline;
+  width: 160px;
+  height: 160px;
+}
+
+ul.photos li img{
+  border: 2px #000 solid;
+}
+
+ul.photos a.horizontal img,
+ul.photos a.effectable img {
+  padding: 15px 0px;
+}
+ul.photos a.vertical img {
+  padding: 0px 15px;
+}
+
+.logo{
+  position: absolute;
+  left: 50%;
+  top: 6px;
+}
+.logo img{
+
+width: 200px;
+height: 50px;
+display: block;
+margin-left: -100px;
+
+}
+.home img{
+  width: 900px;
+height: 700px;
+margin-top: 200px
+}
+
